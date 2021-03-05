@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "CADA_mod",
+    "name": "Anomalous Days Ahead Mod",
+    "authors": [ "Cyrano7" ],
+    "description": "Aims to change the flavor of the game from New England to the Zone.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
