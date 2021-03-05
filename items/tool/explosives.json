@@ -1,0 +1,36 @@
+[
+  {
+    "id": "grenade_f1",
+    "copy-from": "grenade",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "F-1 grenade" },
+    "description": "This is a military-grade fragmentary hand grenade.  Use this item to pull the pin and light the fuse.  You will then have five seconds before it explodes; throwing it would be a good idea.",
+    "weight": 600,
+    "use_action": {
+      "need_wielding": true,
+      "target": "grenade_f1_act",
+      "msg": "You pull the pin on the F-1 grenade.",
+      "target_charges": 5,
+      "active": true,
+      "menu_text": "Pull pin",
+      "type": "transform"
+    }
+  },
+  {
+    "id": "grenade_f1_act",
+    "copy-from": "grenade_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "F-1 grenade" },
+    "description": "This is an active grenade, and will explode any second now.  Better throw it!",
+    "weight": 600,
+    "use_action": {
+      "type": "explosion",
+      "sound_volume": 0,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "You've already pulled the F-1 grenade's pin; try throwing it instead.",
+      "explosion": { "power": 240, "shrapnel": { "casing_mass": 217, "fragment_mass": 0.15 } }
+    }
+  }
+]
