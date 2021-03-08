@@ -1,0 +1,11 @@
+[
+  {
+    "id": "spsh44",
+    "copy-from": "flaregun",
+    "type": "GUN",
+    "name": { "str": "SPSh-44 flare gun" },
+    "description": "A single shot pistol that can be loaded with signal flares.",
+    "weight": 900,
+    "volume": "500 ml"
+  }
+]
