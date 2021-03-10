@@ -14,7 +14,7 @@
     "bashing": 10,
     "material": [ "kevlar_rigid", "plastic" ],
     "symbol": "[",
-    "looks_like": "hat_hard",
+    "looks_like": "helmet_army",
     "color": "green",
     "covers": [ "head" ],
     "coverage": 85,
