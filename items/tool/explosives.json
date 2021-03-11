@@ -66,5 +66,39 @@
       "no_deactivate_msg": "You've already pulled the RGD-5 grenade's pin; try throwing it instead.",
       "explosion": { "power": 240, "shrapnel": { "casing_mass": 217, "fragment_mass": 0.15 } }
     }
+  },
+  {
+    "id": "rdg2",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "RDG-2B smoke grenade" },
+    "description": "This is a cardboard cylinder filled with pyrotechnic chemicals.  Use this item to strike the igniter and light the fuse.  Five seconds after you do that, it will begin to expel a thick white smoke.  This smoke will slow those who enter it, as well as obscuring vision and scent.",
+    "price": 1800,
+    "weight": 600,
+    "volume": "250 ml",
+    "material": [ "cardboard" ],
+    "symbol": "*",
+    "looks_like": "smokebomb",
+    "color": "brown",
+    "use_action": {
+      "need_wielding": true,
+      "target": "rdg2_act",
+      "msg": "You ignite the fuse on the RDG-2B smoke grenade.",
+      "active": true,
+      "menu_text": "Ignite fuse",
+      "type": "transform"
+    },
+    "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "GRENADE" ]
+  },
+  {
+    "id": "rdg2_act",
+    "copy-from": "rdg2",
+    "type": "GENERIC",
+    "name": { "str": "RDG-2B smoke grenade" },
+    "description": "This smoke grenade has had its fuse lit and is expelling thick smoke.",
+    "emits": [ "emit_smoke_stream" ],
+    "countdown_interval": 100,
+    "countdown_action": { "type": "transform", "target": "ash" },
+    "flags": [ "TRADER_AVOID" ]
   }
 ]
