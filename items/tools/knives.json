@@ -15,6 +15,7 @@
     "cutting": 25,
     "material": [ "steel", "plastic" ],
     "symbol": ";",
+    "looks_like": "knife_combat",
     "color": "dark_gray",
     "gunmod_data": {
       "location": "underbarrel",
