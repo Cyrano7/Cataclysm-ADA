@@ -3,6 +3,9 @@
     "type": "ITEM_BLACKLIST",
     "whitelist": false,
     "items": [
+      "scots_cookbook",
+      "cloutie_dumpling",
+      "haggis",
       "drink_strawberry_surprise",
       "drink_boozeberry",
       "drink_hobo",
