@@ -1,0 +1,8 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "army_mags_ak74",
+    "entries": [ { "item": "ak74mag", "ammo-item": "545", "charges": 30 }, { "item": "ak74mag", "ammo-item": "545", "charges": 30 } ]
+  }
+]
