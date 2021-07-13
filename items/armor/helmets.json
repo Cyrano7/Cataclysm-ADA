@@ -1,27 +1,15 @@
 [
   {
     "id": "helmet_6b27",
-    "repairs_like": "xlkevlar",
+    "copy-from": "helmet_army",
     "type": "ARMOR",
-    "category": "armor",
     "name": "6B27 helmet",
     "description": "A Russian aramid fiber helmet that provides excellent protection from all sorts of damage.",
     "weight": 1250,
     "volume": "1750 ml",
     "price": 15000,
     "price_postapoc": 1500,
-    "to_hit": -1,
-    "bashing": 10,
-    "material": [ "kevlar_rigid", "plastic" ],
-    "symbol": "[",
     "looks_like": "helmet_army",
-    "color": "green",
-    "covers": [ "head" ],
-    "coverage": 85,
-    "encumbrance": 20,
-    "warmth": 20,
-    "material_thickness": 9,
-    "techniques": [ "WBLOCK_1" ],
-    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+    "color": "green"
   }
 ]
