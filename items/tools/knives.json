@@ -1,8 +1,8 @@
 [
   {
     "id": "knife_6x5",
+    "copy-from": "knife_combat",
     "type": "TOOL",
-    "category": "weapons",
     "name": { "str": "6X5 bayonet" },
     "description": "This is a military combat knife.  It is light and extremely sharp, and could be deadly in either the right hands or when attached as a bayonet.",
     "weight": 220,
@@ -14,7 +14,6 @@
     "bashing": 6,
     "cutting": 25,
     "material": [ "steel", "plastic" ],
-    "symbol": ";",
     "looks_like": "knife_combat",
     "color": "dark_gray",
     "gunmod_data": {
@@ -22,17 +21,12 @@
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
       "install_time": "5 s"
-    },
-    "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
-    "techniques": [ "RAPID" ],
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
-    "thrown_damage": [ { "damage_type": "stab", "amount": 14 } ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NPC_THROWN" ]
+    }
   },
   {
     "id": "knife_6x4",
+    "copy-from": "knife_combat",
     "type": "TOOL",
-    "category": "weapons",
     "name": { "str": "6X4 bayonet" },
     "description": "This is a military combat knife.  It is light and extremely sharp, and could be deadly in either the right hands or when attached as a bayonet.",
     "weight": 300,
@@ -44,7 +38,6 @@
     "bashing": 6,
     "cutting": 25,
     "material": [ "steel", "plastic" ],
-    "symbol": ";",
     "looks_like": "knife_combat",
     "color": "brown",
     "gunmod_data": {
@@ -52,11 +45,6 @@
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
       "install_time": "5 s"
-    },
-    "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
-    "techniques": [ "RAPID" ],
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
-    "thrown_damage": [ { "damage_type": "stab", "amount": 14 } ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NPC_THROWN" ]
+    }
   }
 ]
