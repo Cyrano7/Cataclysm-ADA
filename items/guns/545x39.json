@@ -1,8 +1,8 @@
 [
   {
     "id": "an94",
+    "copy-from": "ak74",
     "type": "GUN",
-    "reload_noise_volume": 10,
     "name": { "str": "AN-94" },
     "description": "Intended to replace the AK-74, this rifle uses a sophisticated mechanism to delay felt recoil, along with a very fast two-round burst mode.  While its increased complexity prevented it from being adopted by the Russian military, it has seen service among their special forces.",
     "weight": 3850,
@@ -10,17 +10,10 @@
     "longest_side": "95 cm",
     "price": 420000,
     "price_postapoc": 4500,
-    "to_hit": -1,
-    "bashing": 11,
     "material": [ "steel", "plastic" ],
-    "symbol": "(",
     "looks_like": "ak74",
     "color": "dark_gray",
-    "ammo": "545x39",
-    "skill": "rifle",
-    "dispersion": 150,
     "durability": 7,
-    "barrel_volume": "250 ml",
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ], [ "AUTO", "auto", 4 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
