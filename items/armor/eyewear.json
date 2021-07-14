@@ -1,0 +1,16 @@
+[
+  {
+    "id": "aviator_sunglasses",
+    "copy-from": "fancy_sunglasses",
+    "type": "ARMOR",
+    "name": { "str": "pair of aviator sunglasses", "str_pl": "pairs of aviator sunglasses" },
+    "description": "A pair of aviator sunglasses.  Look good while keeping the glare out of your eyes.",
+    "weight": "42 g",
+    "volume": "250 ml",
+    "price": 27500,
+    "price_postapoc": 50,
+    "material": [ "glass", "plastic" ],
+    "looks_like": "sunglasses",
+    "color": "dark_gray"
+  }
+]
