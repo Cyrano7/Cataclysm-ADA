@@ -1,5 +1,42 @@
 [
   {
+    "id": "ak74m",
+    "copy-from": "ak74",
+    "looks_like": "ak47",
+    "type": "GUN",
+    "name": { "str": "AK-74M" },
+    "description": "The successor to the well-known AK-47 rifle.  It combines the reliability of the AK series with the high-velocity, lightweight 5.45x39mm cartridge.",
+    "weight": "3400 g",
+    "volume": "2418 ml",
+    "price": 390000,
+    "price_postapoc": 4000,
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "ak74mag", "rpk74mag" ]
+      }
+    ]
+  },
+  {
     "id": "an94",
     "copy-from": "ak74",
     "type": "GUN",
