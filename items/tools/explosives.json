@@ -1,18 +1,14 @@
 [
   {
     "id": "grenade_f1",
+    "copy-from": "grenade",
     "type": "TOOL",
-    "category": "weapons",
     "name": { "str": "F-1 grenade" },
     "description": "This is a military-grade fragmentary hand grenade.  Use this item to pull the pin and light the fuse.  You will then have five seconds before it explodes; throwing it would be a good idea.",
     "weight": 600,
     "volume": "250 ml",
     "price": 1500,
     "price_postapoc": 1000,
-    "to_hit": -1,
-    "bashing": 6,
-    "material": [ "steel", "plastic" ],
-    "symbol": "*",
     "looks_like": "grenade",
     "color": "green",
     "use_action": {
@@ -23,8 +19,7 @@
       "active": true,
       "menu_text": "Pull pin",
       "type": "transform"
-    },
-    "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "GRENADE" ]
+    }
   },
   {
     "id": "grenade_f1_act",
@@ -46,18 +41,14 @@
   },
   {
     "id": "grenade_rgd",
+    "copy-from": "grenade",
     "type": "TOOL",
-    "category": "weapons",
     "name": { "str": "RGD-5 grenade" },
     "description": "This is a military-grade fragmentary hand grenade.  Use this item to pull the pin and light the fuse.  You will then have five seconds before it explodes; throwing it would be a good idea.",
     "weight": 310,
     "volume": "250 ml",
     "price": 1500,
     "price_postapoc": 1000,
-    "to_hit": -1,
-    "bashing": 6,
-    "material": [ "steel", "plastic" ],
-    "symbol": "*",
     "looks_like": "grenade",
     "color": "green",
     "use_action": {
@@ -68,8 +59,7 @@
       "active": true,
       "menu_text": "Pull pin",
       "type": "transform"
-    },
-    "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "GRENADE" ]
+    }
   },
   {
     "id": "grenade_rgd_act",
