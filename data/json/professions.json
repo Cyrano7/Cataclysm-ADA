@@ -1267,43 +1267,6 @@
   },
   {
     "type": "profession",
-    "id": "true_foodperson",
-    "name": "True Foodperson",
-    "description": "You are the true Foodperson.  Some might think Foodperson is just a mascot, but you know better.  The mask has become your face, you are real, and the only thing standing between this world and oblivion is you.",
-    "npc_background": "BG_survival_story_ECCENTRIC",
-    "points": 0,
-    "traits": [ "PROF_FOODP" ],
-    "skills": [ { "level": 2, "name": "speech" } ],
-    "items": {
-      "both": {
-        "entries": [
-          { "item": "pants_cargo" },
-          { "item": "cape_fp" },
-          { "item": "dress_shirt" },
-          { "item": "armguard_hard" },
-          { "item": "legguard_hard" },
-          { "item": "gloves_rubber" },
-          { "item": "socks" },
-          { "item": "chestguard_hard" },
-          { "item": "boots_rubber" },
-          {
-            "item": "medium_battery_cell",
-            "ammo-item": "battery",
-            "charges": 1200,
-            "container-item": "foodperson_mask"
-          },
-          { "item": "foodplace_snack_bar", "container-item": "fanny" },
-          { "item": "foodplace_snack_bar" },
-          { "item": "foodplace_zero_drink" },
-          { "item": "bat", "custom-flags": [ "auto_wield" ] }
-        ]
-      },
-      "male": { "entries": [ { "item": "briefs" } ] },
-      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
-    }
-  },
-  {
-    "type": "profession",
     "id": "cyclist",
     "name": "Professional Cyclist",
     "description": "You were a promising cyclist with a bright career in front of you before this all happened.  Perhaps you'll never get to participate in the grand tours now, but as the saying goes, life is like riding a bicycle: you've got to keep moving.",
