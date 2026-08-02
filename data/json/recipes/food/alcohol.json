@@ -133,34 +133,6 @@
   },
   {
     "type": "recipe",
-    "activity_level": "NO_EXERCISE",
-    "result": "drink_strawberry_surprise",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "7 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "water_boiling_heat", 1, "LIST" ] ] ],
-    "components": [ [ [ "strawberries", 2 ] ], [ [ "vodka", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "NO_EXERCISE",
-    "result": "drink_boozeberry",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "7 m",
-    "autolearn": true,
-    "qualities": [ { "id": "COOK", "level": 2 } ],
-    "tools": [ [ [ "water_boiling_heat", 1, "LIST" ] ] ],
-    "components": [ [ [ "blueberries", 2 ] ], [ [ "vodka", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "result": "drink_beeknees",
     "category": "CC_*",
@@ -212,20 +184,6 @@
       [ [ "bum_wine", 2 ], [ "wine_cabernet", 2 ], [ "wine_chardonnay", 2 ], [ "wine_noir", 2 ], [ "wine_vermouth", 2 ] ],
       [ [ "cola", 1 ] ]
     ]
-  },
-  {
-    "type": "recipe",
-    "activity_level": "NO_EXERCISE",
-    "result": "drink_hobo",
-    "category": "CC_*",
-    "subcategory": "CSC_*_NESTED",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "time": "4 m",
-    "charges": 15,
-    "autolearn": true,
-    "flags": [ "BLIND_HARD" ],
-    "components": [ [ [ "sweet_juice", 1, "LIST" ] ], [ [ "weak_liquor", 1, "LIST" ] ], [ [ "hard_liquor_chem", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
